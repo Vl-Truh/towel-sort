@@ -9,5 +9,5 @@ let nMatrix = [];
   	for (let j = 0; j <matrix[i].length; j++) {
     	nMatrix.push(matrix[i][j]);}
   }
-  return nMatrix;
+  return nMatrix.sort((a, b) => a - b);
 }
